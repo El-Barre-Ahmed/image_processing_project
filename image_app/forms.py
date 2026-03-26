@@ -14,4 +14,4 @@ OPERATIONS = [
 class ImageUploadForm(forms.Form):
     image = forms.ImageField(label='Choisir une image')
     operation = forms.ChoiceField(choices=OPERATIONS, label='Opération')
-    param = forms.IntegerField(label='Paramètre (optionnel)', required=False)
+    
